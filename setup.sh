@@ -7,3 +7,8 @@ scram b -j16
 
 cd $CMSSW_BASE/src/JetMETAnalysis/JetAnalyzers/test
 git clone https://github.com/aminnj/jec
+cd jec
+
+echo "now you can do"
+echo "  cmsRun run_JRA_cfg.py"
+echo "to create the initial ntuple"
